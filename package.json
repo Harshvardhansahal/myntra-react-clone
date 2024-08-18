@@ -1,7 +1,6 @@
 {
   "name": "myntra-react-clone",
   "private": true,
-  "homepage":"https://harshvardhansahal.github.io/myntra-react-clone",
   "version": "0.0.0",
   "type": "module",
   "scripts": {
