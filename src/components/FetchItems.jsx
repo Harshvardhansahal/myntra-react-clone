@@ -15,7 +15,7 @@ const FetchItems = () => {
     const signal = controller.signal;
 
     dispatch(fetchStatusActions.markFetchingStarted());
-    fetch('items.json', { signal })
+    fetch('/myntra-react-clone/items.json', { signal })
       .then((res) => res.json())
       .then(({ items }) => {
         console.log("items ====>",items);
