@@ -11,12 +11,12 @@ import myntraStore from "./store/index.js";
 
 const router = createBrowserRouter([
   {
-    path: "/myntra-react-clone/",
+    path: "/",
     element: <App />,
     children: [
-      { path: "/myntra-react-clone/", element: <Home /> },
+      { path: "/", element: <Home /> },
       {
-        path: "/myntra-react-clone/bag",
+        path: "/bag",
         element: <Bag />,
       },
     ],
