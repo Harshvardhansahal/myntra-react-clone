@@ -9,7 +9,7 @@ const Header = () => {
   return (
     <header>
       <div className="logo_container">
-        <Link to="/">
+        <Link to="/myntra-react-clone/">
           <img
             className="myntra_home"
             src="images/myntra_logo.webp"
