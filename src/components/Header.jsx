@@ -45,7 +45,7 @@ const Header = () => {
           <span className="action_name">Wishlist</span>
         </div>
 
-        <Link className="action_container" to="/bag">
+        <Link className="action_container" to="/myntra-react-clone/bag">
           <FaBagShopping />
           <span className="action_name">Bag</span>
           <span className="bag-item-count">{bag.length}</span>
